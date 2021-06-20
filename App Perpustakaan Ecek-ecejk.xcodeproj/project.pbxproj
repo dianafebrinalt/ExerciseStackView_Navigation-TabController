@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B878D6E266B7823003D7000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B878D6D266B7823003D7000 /* AppDelegate.swift */; };
+		8B878D70266B7823003D7000 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B878D6F266B7823003D7000 /* SceneDelegate.swift */; };
+		8B878D72266B7823003D7000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B878D71266B7823003D7000 /* ViewController.swift */; };
+		8B878D75266B7823003D7000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B878D73266B7823003D7000 /* Main.storyboard */; };
+		8B878D77266B7824003D7000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B878D76266B7824003D7000 /* Assets.xcassets */; };
+		8B878D7A266B7824003D7000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B878D78266B7824003D7000 /* LaunchScreen.storyboard */; };
+		8BA77D91266B7BE80080FD1A /* DaftarBukuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA77D90266B7BE80080FD1A /* DaftarBukuViewController.swift */; };
+		8BA77D94266B7C030080FD1A /* PengarangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA77D93266B7C030080FD1A /* PengarangViewController.swift */; };
+		8BA77D97266B7C1C0080FD1A /* PenerbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA77D96266B7C1C0080FD1A /* PenerbitViewController.swift */; };
+		8BBA79D5266CE7630043D797 /* MoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA79D4266CE7630043D797 /* MoreDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B878D6A266B7823003D7000 /* App Perpustakaan Ecek-ecejk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Perpustakaan Ecek-ecejk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B878D6D266B7823003D7000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B878D6F266B7823003D7000 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8B878D71266B7823003D7000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B878D74266B7823003D7000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B878D76266B7824003D7000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B878D79266B7824003D7000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B878D7B266B7824003D7000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA77D90266B7BE80080FD1A /* DaftarBukuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarBukuViewController.swift; sourceTree = "<group>"; };
+		8BA77D93266B7C030080FD1A /* PengarangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PengarangViewController.swift; sourceTree = "<group>"; };
+		8BA77D96266B7C1C0080FD1A /* PenerbitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenerbitViewController.swift; sourceTree = "<group>"; };
+		8BBA79D4266CE7630043D797 /* MoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B878D67266B7823003D7000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B878D61266B7823003D7000 = {
+			isa = PBXGroup;
+			children = (
+				8B878D6C266B7823003D7000 /* App Perpustakaan Ecek-ecejk */,
+				8B878D6B266B7823003D7000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B878D6B266B7823003D7000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B878D6A266B7823003D7000 /* App Perpustakaan Ecek-ecejk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B878D6C266B7823003D7000 /* App Perpustakaan Ecek-ecejk */ = {
+			isa = PBXGroup;
+			children = (
+				8B878D6D266B7823003D7000 /* AppDelegate.swift */,
+				8B878D6F266B7823003D7000 /* SceneDelegate.swift */,
+				8B878D71266B7823003D7000 /* ViewController.swift */,
+				8B878D73266B7823003D7000 /* Main.storyboard */,
+				8BBA79D4266CE7630043D797 /* MoreDetailViewController.swift */,
+				8BA77D96266B7C1C0080FD1A /* PenerbitViewController.swift */,
+				8BA77D93266B7C030080FD1A /* PengarangViewController.swift */,
+				8BA77D90266B7BE80080FD1A /* DaftarBukuViewController.swift */,
+				8B878D76266B7824003D7000 /* Assets.xcassets */,
+				8B878D78266B7824003D7000 /* LaunchScreen.storyboard */,
+				8B878D7B266B7824003D7000 /* Info.plist */,
+			);
+			path = "App Perpustakaan Ecek-ecejk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B878D69266B7823003D7000 /* App Perpustakaan Ecek-ecejk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B878D7E266B7824003D7000 /* Build configuration list for PBXNativeTarget "App Perpustakaan Ecek-ecejk" */;
+			buildPhases = (
+				8B878D66266B7823003D7000 /* Sources */,
+				8B878D67266B7823003D7000 /* Frameworks */,
+				8B878D68266B7823003D7000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Perpustakaan Ecek-ecejk";
+			productName = "App Perpustakaan Ecek-ecejk";
+			productReference = 8B878D6A266B7823003D7000 /* App Perpustakaan Ecek-ecejk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B878D62266B7823003D7000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8B878D69266B7823003D7000 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8B878D65266B7823003D7000 /* Build configuration list for PBXProject "App Perpustakaan Ecek-ecejk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B878D61266B7823003D7000;
+			productRefGroup = 8B878D6B266B7823003D7000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B878D69266B7823003D7000 /* App Perpustakaan Ecek-ecejk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B878D68266B7823003D7000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B878D7A266B7824003D7000 /* LaunchScreen.storyboard in Resources */,
+				8B878D77266B7824003D7000 /* Assets.xcassets in Resources */,
+				8B878D75266B7823003D7000 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B878D66266B7823003D7000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B878D72266B7823003D7000 /* ViewController.swift in Sources */,
+				8BA77D94266B7C030080FD1A /* PengarangViewController.swift in Sources */,
+				8BA77D91266B7BE80080FD1A /* DaftarBukuViewController.swift in Sources */,
+				8BA77D97266B7C1C0080FD1A /* PenerbitViewController.swift in Sources */,
+				8BBA79D5266CE7630043D797 /* MoreDetailViewController.swift in Sources */,
+				8B878D6E266B7823003D7000 /* AppDelegate.swift in Sources */,
+				8B878D70266B7823003D7000 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B878D73266B7823003D7000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B878D74266B7823003D7000 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B878D78266B7824003D7000 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B878D79266B7824003D7000 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B878D7C266B7824003D7000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B878D7D266B7824003D7000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B878D7F266B7824003D7000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H6PTB2XT8;
+				INFOPLIST_FILE = "App Perpustakaan Ecek-ecejk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DianaFL.App-Perpustakaan-Ecek-ecejk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B878D80266B7824003D7000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H6PTB2XT8;
+				INFOPLIST_FILE = "App Perpustakaan Ecek-ecejk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DianaFL.App-Perpustakaan-Ecek-ecejk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B878D65266B7823003D7000 /* Build configuration list for PBXProject "App Perpustakaan Ecek-ecejk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B878D7C266B7824003D7000 /* Debug */,
+				8B878D7D266B7824003D7000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B878D7E266B7824003D7000 /* Build configuration list for PBXNativeTarget "App Perpustakaan Ecek-ecejk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B878D7F266B7824003D7000 /* Debug */,
+				8B878D80266B7824003D7000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B878D62266B7823003D7000 /* Project object */;
+}
